@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" width="1440" height="420" role="img" aria-label="best-gpt-image-2-prompts cover">
   <defs>
-    <!-- 背景渐变：深色主调 -->
+    <!-- 背景：深绿调，贴合品牌主色 #216D51 -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0e17"/>
-      <stop offset="100%" stop-color="#161b2c"/>
+      <stop offset="0%" stop-color="#08140f"/>
+      <stop offset="100%" stop-color="#122420"/>
     </linearGradient>
 
-    <!-- 顶部 accent 渐变线 -->
+    <!-- 顶部 accent 渐变线：品牌绿 → 亮绿 → 冷蓝 -->
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ef476f"/>
-      <stop offset="50%" stop-color="#8338ec"/>
+      <stop offset="0%" stop-color="#216D51"/>
+      <stop offset="50%" stop-color="#3d9e7c"/>
       <stop offset="100%" stop-color="#3a86ff"/>
     </linearGradient>
 
-    <!-- 左侧光晕 -->
+    <!-- 左侧光晕：品牌绿发散 -->
     <radialGradient id="glow" cx="0.2" cy="0.55" r="0.4">
-      <stop offset="0%" stop-color="#8338ec" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#8338ec" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#216D51" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#216D51" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
@@ -52,19 +52,19 @@
         font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
         font-size="20" font-weight="400">A curated gallery of high-quality GPT-Image-2 prompts</text>
 
-  <!-- Stats 胶囊 -->
+  <!-- Stats 胶囊：品牌绿为主，蓝/金作为副色平衡 -->
   <g transform="translate(400, 268)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">
     <g>
-      <rect x="0" y="0" width="104" height="30" rx="15" fill="#ef476f" fill-opacity="0.14" stroke="#ef476f" stroke-opacity="0.45"/>
-      <text x="52" y="20" text-anchor="middle" fill="#ef476f">107 CASES</text>
+      <rect x="0" y="0" width="104" height="30" rx="15" fill="#216D51" fill-opacity="0.20" stroke="#3d9e7c" stroke-opacity="0.6"/>
+      <text x="52" y="20" text-anchor="middle" fill="#6ee7b7">107 CASES</text>
     </g>
     <g transform="translate(116, 0)">
       <rect x="0" y="0" width="124" height="30" rx="15" fill="#3a86ff" fill-opacity="0.14" stroke="#3a86ff" stroke-opacity="0.45"/>
       <text x="62" y="20" text-anchor="middle" fill="#3a86ff">5 CATEGORIES</text>
     </g>
     <g transform="translate(252, 0)">
-      <rect x="0" y="0" width="104" height="30" rx="15" fill="#06d6a0" fill-opacity="0.14" stroke="#06d6a0" stroke-opacity="0.45"/>
-      <text x="52" y="20" text-anchor="middle" fill="#06d6a0">CC BY 4.0</text>
+      <rect x="0" y="0" width="104" height="30" rx="15" fill="#ffd166" fill-opacity="0.14" stroke="#ffd166" stroke-opacity="0.45"/>
+      <text x="52" y="20" text-anchor="middle" fill="#ffd166">CC BY 4.0</text>
     </g>
   </g>
 
@@ -75,22 +75,22 @@
     POWERED BY APIMART  ·  apimart.ai
   </text>
 
-  <!-- 右侧画廊意象：4x3 小卡片 -->
+  <!-- 右侧画廊意象：4x3 小卡片，以绿色为主调，蓝/金作点缀 -->
   <g transform="translate(1080, 95)">
-    <!-- Row 1 -->
-    <rect x="0"   y="0"   width="62" height="82" rx="6" fill="#ef476f" fill-opacity="0.70"/>
-    <rect x="70"  y="0"   width="62" height="82" rx="6" fill="#ffd166" fill-opacity="0.70"/>
-    <rect x="140" y="0"   width="62" height="82" rx="6" fill="#06d6a0" fill-opacity="0.70"/>
-    <rect x="210" y="0"   width="62" height="82" rx="6" fill="#118ab2" fill-opacity="0.70"/>
-    <!-- Row 2 -->
-    <rect x="0"   y="90"  width="62" height="82" rx="6" fill="#8338ec" fill-opacity="0.55"/>
-    <rect x="70"  y="90"  width="62" height="82" rx="6" fill="#3a86ff" fill-opacity="0.55"/>
-    <rect x="140" y="90"  width="62" height="82" rx="6" fill="#ef476f" fill-opacity="0.45"/>
-    <rect x="210" y="90"  width="62" height="82" rx="6" fill="#ffd166" fill-opacity="0.45"/>
-    <!-- Row 3 -->
-    <rect x="0"   y="180" width="62" height="82" rx="6" fill="#06d6a0" fill-opacity="0.30"/>
-    <rect x="70"  y="180" width="62" height="82" rx="6" fill="#118ab2" fill-opacity="0.30"/>
-    <rect x="140" y="180" width="62" height="82" rx="6" fill="#8338ec" fill-opacity="0.22"/>
-    <rect x="210" y="180" width="62" height="82" rx="6" fill="#3a86ff" fill-opacity="0.22"/>
+    <!-- Row 1：饱和度最高 -->
+    <rect x="0"   y="0"   width="62" height="82" rx="6" fill="#216D51" fill-opacity="0.85"/>
+    <rect x="70"  y="0"   width="62" height="82" rx="6" fill="#3d9e7c" fill-opacity="0.85"/>
+    <rect x="140" y="0"   width="62" height="82" rx="6" fill="#ffd166" fill-opacity="0.70"/>
+    <rect x="210" y="0"   width="62" height="82" rx="6" fill="#3a86ff" fill-opacity="0.70"/>
+    <!-- Row 2：中等透明度 -->
+    <rect x="0"   y="90"  width="62" height="82" rx="6" fill="#6ee7b7" fill-opacity="0.55"/>
+    <rect x="70"  y="90"  width="62" height="82" rx="6" fill="#216D51" fill-opacity="0.60"/>
+    <rect x="140" y="90"  width="62" height="82" rx="6" fill="#3d9e7c" fill-opacity="0.50"/>
+    <rect x="210" y="90"  width="62" height="82" rx="6" fill="#3a86ff" fill-opacity="0.40"/>
+    <!-- Row 3：淡化 -->
+    <rect x="0"   y="180" width="62" height="82" rx="6" fill="#216D51" fill-opacity="0.30"/>
+    <rect x="70"  y="180" width="62" height="82" rx="6" fill="#3d9e7c" fill-opacity="0.25"/>
+    <rect x="140" y="180" width="62" height="82" rx="6" fill="#6ee7b7" fill-opacity="0.20"/>
+    <rect x="210" y="180" width="62" height="82" rx="6" fill="#ffd166" fill-opacity="0.20"/>
   </g>
 </svg>
