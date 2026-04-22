@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+
+# local
+tmp/
+result/
+
+# memory
+MEMORY.md
